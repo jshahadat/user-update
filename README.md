@@ -95,7 +95,7 @@ npm run start:dev
 }
 ```
 
-## 4. Update user information
+## 4. Update user
 
 ```
  PUT : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId
@@ -129,7 +129,7 @@ npm run start:dev
 }
 ```
 
-## 5. Delete a user
+## 5. Delete user
 
 ```
  DELETE  : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId
@@ -144,7 +144,7 @@ npm run start:dev
 }
 ```
 
-## 6.Add New Product in Order
+## 6. Place New Order
 
 ```
  PUT  : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId/orders
