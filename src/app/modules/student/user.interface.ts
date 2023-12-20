@@ -36,3 +36,4 @@ export type UserModel = Model<IUser> & {
   // eslint-disable-next-line no-unused-vars
   isOrderExists(id: string): Promise<IUser | null>;
 };
+//
