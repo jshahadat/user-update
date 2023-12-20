@@ -1,6 +1,5 @@
 import { z } from 'zod';
 
-// Define schemas for subtypes
 const userFullNameValidationSchema = z.object({
   firstName: z.string().trim(),
   lastName: z.string().trim(),
@@ -17,8 +16,6 @@ export const ordersValidationSchema = z.object({
   price: z.number().positive('Price must be a positive number!'),
   quantity: z.number().positive('Quantity must be a positive number!'),
 });
-
-// Define the main user schema
 
 export const userValidationSchema = z.object({
   userId: z.number().int().positive('UserId must be a positive integer!'),
