@@ -13,15 +13,6 @@ const getAllUsersService = async () => {
   const result = await User.find();
   return result;
 };
-
-const getSingleUserService = async (userId: string) => {
-  if (!(await User.isUserExists(userId))) {
-    return new Error('User not found!');
-  }
-  const result = await User.find({ userId: Number(userId) });
-  return result;
-};
-
 const updateUserService = async (userData: IUser) => {
   try {
     if (!(await User.isUserExists(String(userData.userId)))) {
@@ -46,6 +37,14 @@ const updateUserService = async (userData: IUser) => {
   } catch (error) {
     throw new Error('User not found!');
   }
+};
+
+const getSingleUserService = async (userId: string) => {
+  if (!(await User.isUserExists(userId))) {
+    return new Error('User not found!');
+  }
+  const result = await User.find({ userId: Number(userId) });
+  return result;
 };
 
 const createUserOrderService = async (userId: string, order: IOrders) => {
