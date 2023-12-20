@@ -17,16 +17,7 @@ npm install
 npm run start:dev
 ```
 
-### 1. Retrieve a list of all users
-
-// List of user objects. Each object should only contain username, fullName, age, email, address .
-
-```
- GET: https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users
-
-```
-
-### 2. Create a new user
+### 1. Create a new user
 
 // List of user objects. fullName, age, email, address .
 
@@ -57,6 +48,15 @@ npm run start:dev
         "country": "string"
     }
 }
+```
+
+### 2. Retrieve a list of all users
+
+// List of user objects. Each object should only contain username, fullName, age, email, address .
+
+```
+ GET: https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users
+
 ```
 
 ## 3. Retrieve a specific user by ID
