@@ -17,9 +17,7 @@ npm install
 npm run start:dev
 ```
 
-# API
-
-# 2. Retrieve a list of all users
+### 1. Retrieve a list of all users
 
 // List of user objects. Each object should only contain username, fullName, age, email, address .
 
@@ -28,7 +26,7 @@ npm run start:dev
 
 ```
 
-# 2. Create a new user
+### 2. Create a new user
 
 // List of user objects. fullName, age, email, address .
 
