@@ -1,14 +1,9 @@
 # Clone Repository
 
 ```
-git clone https://github.com/sohag7th/TypeScript_Mongoose.git
+git clone https://github.com/jshahadat/user-update.git
 
 ```
-
-### Requirements
-
-- Node.js v.18+
-- TypeScript v.4.5+
 
 # Installation
 
@@ -29,16 +24,16 @@ npm run start:dev
 // List of user objects. Each object should only contain username, fullName, age, email, address .
 
 ```
- GET: https://type-ebon.vercel.app/api/users
+ GET: https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users
 
 ```
 
 # 2. Create a new user
 
-// List of user objects. Each object should only contain username, fullName, age, email, address .
+// List of user objects. fullName, age, email, address .
 
 ```
- POST:  https://type-ebon.vercel.app/api/users
+ POST:  https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users
 
 ```
 
@@ -69,7 +64,7 @@ npm run start:dev
 ## 3. Retrieve a specific user by ID
 
 ```
- GET: https://type-ebon.vercel.app/api/users/:userId
+ GET: https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId
 
 ```
 
@@ -103,7 +98,7 @@ npm run start:dev
 ## 4. Update user information
 
 ```
- PUT : https://type-ebon.vercel.app/api/users/:userId
+ PUT : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId
 
 ```
 
@@ -137,7 +132,7 @@ npm run start:dev
 ## 5. Delete a user
 
 ```
- DELETE  : https://type-ebon.vercel.app/api/users/:userId
+ DELETE  : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId
 
 ```
 
@@ -152,7 +147,7 @@ npm run start:dev
 ## 6.Add New Product in Order
 
 ```
- PUT  : https://type-ebon.vercel.app/api/users/:userId/orders
+ PUT  : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId/orders
 
  {
     "productName": "string",
@@ -173,7 +168,7 @@ npm run start:dev
 ## 7. Retrieve all orders for a specific user
 
 ```
- GET   : https://type-ebon.vercel.app/api/users/:userId/orders
+ GET   : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId/orders
 
 ```
 
@@ -201,7 +196,7 @@ npm run start:dev
 ## 8. Calculate Total Price of Orders for a Specific User
 
 ```
- PUT  : https://type-ebon.vercel.app/api/users/:userId/orders
+ PUT  : https://leve-2-assignment-2-3cn103bsr-jshahadat.vercel.app/api/users/:userId/orders
 ```
 
 ```response
